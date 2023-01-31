@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=EB+Garamond:ital,wght@1,600&family=Lato:wght@400;700&family=Nunito+Sans:ital,wght@1,200&family=Roboto:wght@300;400;500;700;900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">A Developer</h1>
+        <ul class="nav-links-container">
+                <li class="nav-link"> <a href="#home-section" class="links active">home</a></li>
+                <li class="nav-link"><a href="#project-section" class="links">projects</a></li>
+                <li class="nav-link"><a href="#about-section" class="links">about</a></li>
+                <li class="nav-link"><a href="#contact-section" class="links">contact</a></li>
+        </ul>
+
+
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- header-->
+    <header class="header" id="home-section">
+        <div class="content">
+            <h1 class="header-heading"> Hey, I am <span class="brand-name">Rohit <span> Chaturvedi</span></span></h1>
+            <a href="#" class="btn">Hire</a>
+
+        </div>
+
+        <div class="header-img-container">
+            <div class="circle"></div>
+            <img src="img/image_1-removebg.png"  class="header-img" alt="">
+        </div>
+    </header>
+
+
+    <!-- about section-->
+    <section id="about-section">
+        <h1 class="heading">About me</h1>
+        <!--about -->
+        <div class="about-container">
+            <div class="image-container">
+                <div class="square"></div>
+                <img src="./img/image_2-removebg-preview.png" class="about-img" alt="">
+                <div class="social-links">
+                    <a href="#"> <img src="img/github.png" alt="" class="social-img"></a>
+                    <a href="#"> <img src="img/insta.png" alt="" class="social-img"></a>
+                    <a href="#"> <img src="img/fb.png" alt="" class="social-img"></a>
+                    <a href="#"> <img src="img/linked.png" alt="" class="social-img"></a>
+                    <a href="#"> <img src="img/twitter.png" alt="" class="social-img"></a>
+                </div>
+            </div>
+
+            <!-- info-->
+
+
+            <div class="info">
+                <p>Hello I'm Rohit Chaturvedi, a Developer with the ability to develope and design a web app according to the customer need. I have a skills in solving complex problems in good manner. I have a experience of projects which i made for showcase my skills.I have ability to design web app according to different devices and also FreeCodeCamp certified me in legacy Responsive Web Design.</p>
+                <a href="#" class="btn">Hire me </a>
+                <a href="#" class="btn">Download Cv</a>
+            </div>
+        </div>
+
+
+
+        <!--skills part-->
+        <h2 class="sub-heading">skills</h2>
+        <div class="skills">
+            <p class="skill-name">C</p>
+            <p class="skill-name">C++</p>
+            <p class="skill-name">OPP's</p>
+            <p class="skill-name">HTML</p>
+            <p class="skill-name">CSS</p>
+            <p class="skill-name">JAVASCRIPT</p>
+            <p class="skill-name">FRONTEND DEVELOPMENT</p>
+        </div>
+
+
+        <!-- timeline-->
+
+        <h2 class="sub-heading">Education</h2>
+        <div class="timeline-container">
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2000 -2002</h1>
+                    <p class="card-body">lorem ipsum</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2000 -2002</h1>
+                    <p class="card-body">lorem ipsum</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2000 -2002</h1>
+                    <p class="card-body">lorem ipsum</p>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- project section  -->
+    <section id="project-section">
+        <h1 class="heading">projects</h1>
+
+        <div class="filter">
+            <button class="btn filter-btn active">all</button>
+            <button class="btn filter-btn" disabled>css</button>
+            <button class="btn filter-btn" disabled>javascript</button>
+            <button class="btn filter-btn" disabled>fullstack</button>
+        </div>
+
+        <!-- project card -->
+
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="image-container2">
+                <div class="image"><p>Product Landing Page</p><img src="./img/Product-landing.png" alt=""></div>
+                <div class="image"><p>JAVASCRIPT Documentry</p><img src="./img/Documentry.png" alt=""></div>
+                <div class="image"><p>Parallelx Page</p><img src="./img/parallelx.png" alt=""></div>
+                <div class="image"><p>Survey Form</p><img src="./img/survey.png" alt=""></div>
+                <div class="image"><p>Tribute Page</p><img src="./img/page.png" alt=""></div>
+            </div>
+
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="./img/Product-landing.png" alt=""></div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Contact section -->
+
+    <section id="contact-section">
+        <h1 class="heading">contact</h1>
+<div class="form">
+    <form action="">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+        <input type="text" placeholder="subject">
+        <textarea placeholder="drop your message"></textarea>
+        <button class="contact-btn">Contact</button>
+
+    </form>
+</div>
+    </section>
+
+
+
+
+
+    
+    <script src="./index.js"></script>
+    <script>
+        document.querySelectorAll('.image-container2 img').forEach(image => {
+                image.onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'block';
+                    document.querySelector('.popup-image img').src = image.getAttribute('src');
+                }
+
+            });
+
+            document.querySelector('.popup-image span').onclick = () => {
+                document.querySelector('.popup-image').style.display = 'none';
+            }
+    </script>
+
+</body>
+</html>
